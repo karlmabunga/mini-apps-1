@@ -1,2 +1,35 @@
-
-
+<!-- basic html goes here -->
+<html>
+  <head>
+    <style>
+      table,
+      tr,
+      td {
+        border: 2px, solid black;
+        padding: 40px;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <button type="button" onclick='handleReset()'>Restart</button>
+    <table border="1" class="table">
+      <tr>
+        <td class='spot' id='one' ></td>
+        <td class='spot' id='two'></td>
+        <td class='spot' id='three'></td>
+      </tr>
+      <tr>
+        <td class='spot' id='four'></td>
+        <td class='spot' id='five'></td>
+        <td class='spot' id='six'></td>
+      </tr>
+      <tr>
+        <td class='spot' id='seven'></td>
+        <td class='spot' id='eight'></td>
+        <td class='spot' id='nine'></td>
+      </tr>
+    </table>
+    <script type ="text/javascript" src="app.js"></script>
+  </body>
+</html>
