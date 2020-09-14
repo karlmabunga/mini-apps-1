@@ -1,4 +1,7 @@
-
+.header {
+  margin-top: 30px;
+  margin-left: 580px;
+}
 table {
   margin-top: 100px;
   border: 2px, solid black;
@@ -7,10 +10,11 @@ table {
   margin-right: auto;
 }
 .buttonContainer {
-  margin: center;
+  margin-left: 570px;
 }
 .spot {
   padding: 50px;
+  border: 2px solid black;
 }
 
 body {
